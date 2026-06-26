@@ -21,7 +21,7 @@
 
 | Categoria | Tecnologias |
 |------------|-------------|
-| ☁️ Cloud | Google Cloud Platform, AWS (em aprendizado), Snowflake |
+| ☁️ Cloud | Google Cloud Platform, AWS, Azure, Snowflake |
 | ⚙️ Data Engineering | dbt, Apache Airflow, Databricks |
 | 🐍 Linguagens | Python, SQL |
 | 🗄 Banco de Dados | PostgreSQL, BigQuery |
@@ -31,103 +31,14 @@
 
 # 🚀 Projetos em Destaque
 
-## 🏗 Data Warehouse com dbt + BigQuery
-
-Pipeline analítico utilizando arquitetura em camadas:
-
-```
-Sources
-↓
-Staging
-↓
-Intermediate
-↓
-Marts
-```
-
-### Tecnologias
-
-- dbt Core
-- Google BigQuery
-- SQL
-- Snapshots
-- Testes
-- Macros
-- Documentação automática
-
----
-
-## ❄ Pipeline com dbt + Snowflake + Apache Airflow
-
-Pipeline completo em ambiente Cloud.
-
-```
-CSV
-↓
-dbt Seeds
-↓
-Snowflake
-↓
-Airflow
-↓
-Data Warehouse
-```
-
-### Tecnologias
-
-- Snowflake
-- dbt
-- Airflow
-- Docker
-- Python
-
----
-
-## 🚀 ETL Data Warehouse
-
-Pipeline completo para processamento de commodities.
-
-```
-CSV/XLSX
-↓
-Python
-↓
-PostgreSQL
-↓
-dbt
-↓
-Data Warehouse
-```
-
-### Destaques
-
-✔ ETL
-✔ Modelagem Analítica
-✔ Transformações
-✔ PostgreSQL
-
----
-
-## ⚙ Pipeline Bronze • Silver • Gold
-
-```
-Raw
-↓
-Bronze
-↓
-Silver
-↓
-Gold
-```
-
-### Tecnologias
-
-- Apache Airflow
-- Docker
-- Pandas
-- PostgreSQL
-
----
+| Projeto | Tecnologias |
+|---------|-------------|
+| 🏗 [Data Warehouse com dbt + BigQuery](https://github.com/IgorRamos099/data-warehouse-dbt-bigquery) | dbt • BigQuery • SQL |
+| ❄️ [Pipeline com dbt + Snowflake + Airflow](https://github.com/IgorRamos099/dbt-snowflake-airflow) | Snowflake • Airflow • Docker |
+| ⚙️ [ETL Data Warehouse](https://github.com/IgorRamos099/etl-data-warehouse) | Python • PostgreSQL • dbt |
+| 🔄 [Pipeline Bronze • Silver • Gold](https://github.com/IgorRamos099/airflow-data-pipeline) | Airflow • Docker • Pandas |
+| 🤖 [Análise de Anomalias](https://github.com/IgorRamos099/case_anomaly) | Python • Pandas |
+| 📈 [Previsão da Resistência do Concreto](https://github.com/IgorRamos099/concrete_strength_forecast) | Machine Learning • Scikit-learn |
 
 # 📚 Atualmente estudando
 
